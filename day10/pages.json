@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }   ,{
+            "path" : "pages/fen/fen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }   ,{
+            "path" : "pages/gwc/gwc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	 "tabBar": {
+	    "list": [{
+	      "pagePath": "pages/home/home",
+	      "text": "首页",
+		  "selectedIconPath": "static/icon/home.png",
+		  "iconPath": "static/icon/home-a.png"
+	    }, {
+	      "pagePath": "pages/fen/fen",
+	      "text": "分类",
+		  "selectedIconPath": "static/icon/cart.png",
+		  "iconPath": "static/icon/cate-a.png"
+	    }, {
+	      "pagePath": "pages/gwc/gwc",
+	      "text": "购物车",
+		  "selectedIconPath": "static/icon/cart.png",
+		  "iconPath": "static/icon/cart-a.png"
+	    }, {
+	      "pagePath": "pages/my/my",
+	      "text": "我的",
+		  "selectedIconPath": "static/icon/user.png",
+		  "iconPath": "static/icon/user-a.png"
+	    }]
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#c00",
+		"backgroundColor": "#c00"
+	},
+	"uniIdRouter": {}
+}
